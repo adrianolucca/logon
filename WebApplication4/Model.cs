@@ -16,7 +16,7 @@ namespace WebApplication4
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=ADRIANO-PC\SQLEXPRESS;Initial Catalog=makeMagic;Integrated Security=True;");
+          //  optionsBuilder.UseSqlServer(@"Data Source=ADRIANO-PC\SQLEXPRESS;Initial Catalog=makeMagic;Integrated Security=True;");
         }
       
         protected override void OnModelCreating(ModelBuilder builder)
