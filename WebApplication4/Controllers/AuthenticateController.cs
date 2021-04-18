@@ -118,12 +118,6 @@ namespace WebApplication4.Controllers
             return Ok(new Response { Status = "Success", Message = "User created successfully!" });
         }
 
-        [HttpPost("teste")]
-        [AutoValidateAntiforgeryToken]
-        public async Task<IActionResult> Teste(string model)
-        {
-            
-            return Ok();
-        }
+       
     }
 }
